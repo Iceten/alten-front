@@ -34,6 +34,7 @@ export class BreadcrumbComponent implements OnInit {
     ).subscribe((url) => {
       this.buildBreadcrumb(url);
     });
+    
   }
 
   private buildBreadcrumb(path: string): void {

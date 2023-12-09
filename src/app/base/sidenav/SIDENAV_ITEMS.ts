@@ -2,22 +2,28 @@ import { SidenavItem } from "app/base/sidenav/sidenav.model";
 
 export const SIDENAV_ITEMS: SidenavItem[] = [
   {
-    id: 'Menu-item-1',
+    id: '',
     labels: {
-      en: "Menu item 1",
-      fr: "Menu item 1"
+      en: "Home",
+      fr: "Acceuil"
     },
-    link: 'dd'
+    link: '/'
+  },
+  {
+    id: 'admin/products',
+    labels: {
+      en: "Admin",
+      fr: "Admin"
+    },
+    link: 'admin/products'
 
   },
   {
-    id: 'Menu-item-2',
+    id: 'products',
     labels: {
-      en: "Menu item 2",
-      fr: "Menu item 2"
+      en: "Products",
+      fr: "Produits"
     },
-    link: 'ff'
-
+    link: 'products'
   }
-
 ];
